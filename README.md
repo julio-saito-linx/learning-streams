@@ -28,8 +28,34 @@ npm i
 ./sa
 ```
 
-#### verify
+### cmd.js
+```
+./sa
+```
+Show a menu to interactively select an adventure.
+
+```
+./sa list
+```
+Show a newline-separated list of all the adventures.
+
+```
+./sa select NAME
+```
+Select an adventure.
+
+```
+./sa current
+```
+Show the currently selected adventure.
+
+```
+./sa run program.js
+```
+Run your program against the selected input.
+
 ```
 ./sa verify program.js
 ```
+Verify your program against the expected output.
 
