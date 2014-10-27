@@ -1,7 +1,7 @@
 # stream-adventure
 https://github.com/substack/stream-adventure
 
-## install stream dependencies
+### install stream dependencies
 - through
 - concat-stream
 - duplexer
@@ -16,19 +16,19 @@ npm i
 ```
 
 
-## install class
+### install class
 ```
 git clone git@github.com:substack/stream-adventure.git
 cd stream-adventure
 npm i
 ```
 
-## start
+#### start
 ```
 ./sa
 ```
 
-## verify
+#### verify
 ```
 ./sa verify program.js
 ```
